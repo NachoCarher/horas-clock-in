@@ -19,8 +19,8 @@ $ horas in
 Necesita Python 3.8 o posterior.
 
 ```bash
-git clone https://github.com/<tu-usuario>/horas.git
-cp horas/horas.py ~/.local/bin/horas
+git clone https://github.com/NachoCarher/horas-clock-in.git
+cp horas-clock-in/horas.py ~/.local/bin/horas
 chmod +x ~/.local/bin/horas
 ```
 
@@ -141,3 +141,7 @@ ajuste,2026-11-11,+1h 30m,saldo inicial
 - **Ajuste:** `ajuste,fecha,±duración,nota`.
 
 Una sesión que cruza la medianoche cuenta entera para el día en que empezó. Para corregir cualquier cosa, `horas edit` abre el fichero en `$EDITOR` y comprueba el formato al cerrar. El script reescribe el fichero en cada fichaje, así que no conserva comentarios ni líneas en blanco que añadas a mano.
+
+## Licencia
+
+[MIT](LICENSE)
